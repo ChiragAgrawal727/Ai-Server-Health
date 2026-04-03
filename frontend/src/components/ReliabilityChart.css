@@ -1,0 +1,64 @@
+.reliability-chart-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.chart-header h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.bg-green { background-color: var(--accent-green); }
+.bg-orange { background-color: var(--accent-orange); }
+.bg-red { background-color: var(--accent-red); }
+
+.chart-container {
+  flex: 1;
+  width: 100%;
+}
+
+.custom-tooltip {
+  padding: 0.75rem;
+  border-color: rgba(255,255,255,0.1);
+}
+
+.tooltip-label {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.tooltip-value {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.ai-prediction-text {
+  background-color: rgba(245, 158, 11, 0.15);
+  padding: 4px;
+  border-radius: 4px;
+}
